@@ -9,26 +9,6 @@ export default function Footer() {
           © {new Date().getFullYear()} MVP FAST IS PART OF TOMATINA IDEAS WEB
           S.L. All rights reserved.
         </p>
-        <div className="flex items-center gap-4">
-          <Link
-            href="#"
-            className="text-muted-foreground hover:text-foreground">
-            <Twitter className="h-5 w-5" />
-            <span className="sr-only">Twitter</span>
-          </Link>
-          <Link
-            href="#"
-            className="text-muted-foreground hover:text-foreground">
-            <Github className="h-5 w-5" />
-            <span className="sr-only">GitHub</span>
-          </Link>
-          <Link
-            href="#"
-            className="text-muted-foreground hover:text-foreground">
-            <Linkedin className="h-5 w-5" />
-            <span className="sr-only">LinkedIn</span>
-          </Link>
-        </div>
       </div>
     </footer>
   );
